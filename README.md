@@ -18,14 +18,14 @@ composer require ritechoice23/laravel-taggable
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-taggable-migrations"
+php artisan vendor:publish --tag="taggable-migrations"
 php artisan migrate
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-taggable-config"
+php artisan vendor:publish --tag="taggable-config"
 ```
 
 The config file allows you to customize the trending score calculation:
