@@ -1,4 +1,4 @@
-# 🏷️ Laravel Taggable - The Developer's Choice
+# Laravel Taggable - The Developer's Choice
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ritechoice23/laravel-taggable.svg?style=flat-square)](https://packagist.org/packages/ritechoice23/laravel-taggable)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/ritechoice23/laravel-taggable/run-tests.yml?branch=master&label=tests&style=flat-square)](https://github.com/ritechoice23/laravel-taggable/actions?query=workflow%3Arun-tests+branch%3Amaster)
@@ -6,6 +6,28 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/ritechoice23/laravel-taggable.svg?style=flat-square)](https://packagist.org/packages/ritechoice23/laravel-taggable)
 
 **The most intuitive and powerful Laravel tagging package that just works.** Add `$post->tag('laravel')` to any model and get intelligent tag normalization, trending analytics, powerful queries, and bulletproof edge case handling - all with zero configuration required.
+
+## Why this package
+
+### Popular Alternatives
+
+-   [rtconner/laravel-tagging](https://github.com/rtconner/laravel-tagging)
+-   [spatie/laravel-tags](https://github.com/spatie/laravel-tags)
+-   [cviebrock/eloquent-taggable](https://github.com/cviebrock/eloquent-taggable)
+
+### What Makes It Unique
+
+✅ **Trending Score Algorithm** - Configurable trending calculation (volume, recency, velocity, freshness weights)
+
+✅ **Tag Analytics** - Built-in `getActivitySummary()`, growth rate tracking
+
+✅ **Momentum Bonuses** - Reward tags with consistent daily/weekly activity
+
+✅ **Meta Attributes** - Color, description, icon stored as JSON on tags
+
+✅ **High Growth Detection** - `whereHighGrowth()` scope for discovering rising topics
+
+✅ **Artisan Command** - `php artisan tags:calculate-trending`
 
 ## Installation
 
